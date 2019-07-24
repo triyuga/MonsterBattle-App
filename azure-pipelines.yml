@@ -41,8 +41,8 @@ steps:
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: ‘$(Build.SourcesDirectory)/dist’
-  archiveType: ‘zip’
-  archiveFile: ‘$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip’
-  replaceExistingArchive: true
+    archiveType: ‘zip’
+    archiveFile: ‘$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip’
+    replaceExistingArchive: true
 
 - task: PublishBuildArtifacts@1
