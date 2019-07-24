@@ -1,0 +1,15 @@
+
+/* .MonsterBattle {} */
+
+.MonsterBattle .MonsterBattle-header {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.MonsterBattle .MonsterBattle-header .MonsterBattle-header-title {
+  padding: 20px;
+  margin: 0;
+  color: red;
+  /* text-align: center; */
+}
