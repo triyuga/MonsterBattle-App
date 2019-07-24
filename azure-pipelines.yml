@@ -29,9 +29,9 @@ steps:
     replaceExistingArchive: true
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact'
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'MonsterBattle-App'
-    publishLocation: 'Container'
-  condition: succeededOrFailed()
+  # displayName: 'Publish Artifact'
+  # inputs:
+  #   PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+  #   ArtifactName: 'MonsterBattle-App'
+  #   publishLocation: 'Container'
+  # condition: succeededOrFailed()
