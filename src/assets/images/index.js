@@ -7,5 +7,7 @@ export default {
   Simon: require('../../assets/images/simon.svg'),
   Snot: require('../../assets/images/snot.svg'),
   Steve: require('../../assets/images/steve.svg'),
-  tombstone: require('../../assets/images/tombstone.svg')
+  tombstone: require('../../assets/images/tombstone.svg'),
+  TheDonald: require('../../assets/images/trump.png'),
+  Bernie: require('../../assets/images/bernie.png'),
 }
