@@ -10,4 +10,5 @@ export default {
   tombstone: require('../../assets/images/tombstone.svg'),
   TheDonald: require('../../assets/images/trump.png'),
   Bernie: require('../../assets/images/bernie.png'),
+  Scomo: require('../../assets/images/scomo.png'),
 }
